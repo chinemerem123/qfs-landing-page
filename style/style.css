@@ -8,4 +8,49 @@
 
 body {
   width: 100%;
+}
+
+.btn-primary2 {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  width: 170px;
+  border-radius: 150px;
+  transition: 0.3s;
+}
+.btn-primary2:hover {
+  background-color: rgb(34, 34, 255);
+  color: white;
+}
+
+.btn-outline-primary2 {
+  padding: 10px;
+  width: 170px;
+  border-radius: 150px;
+  border: 1.5px solid rgb(34, 34, 255);
+  color: rgb(34, 34, 255);
+}
+.btn-outline-primary2:hover {
+  border: 1.5px solid rgb(34, 34, 255);
+  color: rgb(34, 34, 255);
+}
+
+.navbar {
+  position: sticky !important;
+  top: 0;
+  background-color: white;
+}
+.navbar .container #logo {
+  font-weight: bold;
+}
+
+#hero .h1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+#hero .col2 img {
+  position: relative;
+  width: 300px;
+  left: calc(50% - 150px);
+  border-radius: 50px;
 }/*# sourceMappingURL=style.css.map */
