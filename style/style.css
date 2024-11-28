@@ -40,6 +40,10 @@ body {
   color: rgb(34, 34, 255);
 }
 
+.text-gray {
+  color: gray;
+}
+
 .navbar {
   position: sticky !important;
   top: 0;
@@ -61,11 +65,60 @@ body {
   border-radius: 50px;
 }
 
+#features .card {
+  border: none;
+  border-radius: 20px;
+}
+#features .card .icon-hold {
+  position: relative;
+  left: calc(50% - 25px);
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#features .card p {
+  color: rgb(88, 88, 88);
+}
+
+#service .card {
+  border: none;
+  border-radius: 20px;
+}
+#service #first {
+  background: linear-gradient(180deg, #fff9a8 5.98%, #aeafff 77.73%);
+}
+#service #first .card {
+  width: 90%;
+  position: relative;
+  left: 5%;
+  height: 350px;
+  overflow: hidden;
+}
+#service #first .card p {
+  color: rgb(88, 88, 88);
+}
+#service #first .card .col2 img {
+  width: 300px;
+  border-radius: 50px;
+  position: relative;
+  left: calc(50% - 150px);
+}
+
 @media screen and (max-width: 800px) {
   #hero .h1 {
     font-size: 40px;
   }
   #hero .col2 {
     margin-top: 30px;
+  }
+  #service #first .card {
+    width: 100%;
+    left: 0%;
+    height: 550px;
+    margin-bottom: 40px;
   }
 }/*# sourceMappingURL=style.css.map */
