@@ -9,6 +9,7 @@
 
 body{
     width: 100%;
+    background-color: #f4f4f4;
 }
 
 .btn-primary2{
@@ -38,10 +39,15 @@ body{
     }
 }
 
+.text-primary2{
+    color: rgb(34, 34, 255);
+}
+
 .navbar{
     position: sticky !important;
     top: 0;
     background-color: white;
+    z-index: 100;
 
     .container{
         #logo{
@@ -67,4 +73,16 @@ body{
     }
 
   
+}
+
+@media screen and (max-width:800px){
+    #hero{
+        .h1{
+            font-size: 40px;
+        }
+
+        .col2{
+            margin-top: 30px;
+        }
+    }
 }
