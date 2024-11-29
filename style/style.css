@@ -86,9 +86,10 @@ body {
 
 #service .card {
   border: none;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 #service #first {
+  z-index: 1;
   background: linear-gradient(180deg, #fff9a8 5.98%, #aeafff 77.73%);
 }
 #service #first .card {
@@ -106,6 +107,27 @@ body {
   border-radius: 50px;
   position: relative;
   left: calc(50% - 150px);
+}
+#service #second {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  position: relative;
+  top: -30px;
+  background: linear-gradient(180deg, #fff465 5.98%, #48ff91 77.73%);
+}
+#service #second .card {
+  border: none;
+  margin-top: 30px;
+  width: 90%;
+  left: 5%;
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+}
+#service #second .card img {
+  width: 320px;
+  position: relative;
+  left: calc(50% - 160px);
 }
 
 @media screen and (max-width: 800px) {

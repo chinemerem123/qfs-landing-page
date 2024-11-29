@@ -104,9 +104,10 @@ body{
 #service{
     .card{
         border:none;
-        border-radius:20px ;
+        border-radius:30px ;
     }
     #first{
+        z-index: 1;
       background:linear-gradient(180deg,#fff9a8 5.98%,#aeafff 77.73%);
 
       .card{
@@ -130,6 +131,30 @@ img{
         }
 
       }
+    }
+
+    #second{
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        position: relative;
+        top: -30px;
+        background: linear-gradient(180deg, #fff465 5.98%, #48ff91 77.73%);
+
+        .card{
+            border: none;
+            margin-top: 30px;
+            width: 90%;
+            left: calc(50% - 45%);
+            position: relative;
+            height: 350px;
+            overflow: hidden;
+
+            img{
+                width: 320px;
+                position: relative;
+                left: calc(50% - 160px);
+            }
+        }
     }
 }
 
