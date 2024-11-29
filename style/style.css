@@ -20,7 +20,7 @@ body {
   transition: 0.3s;
 }
 .btn-primary2:hover {
-  background-color: rgb(34, 34, 255);
+  background-color: #2222ff;
   color: white;
 }
 
@@ -142,5 +142,19 @@ body {
     left: 0%;
     height: 550px;
     margin-bottom: 40px;
+  }
+  #service #first .card .col2 img {
+    width: 250px;
+    left: calc(50% - 125px);
+  }
+  #service #second .card {
+    width: 100%;
+    left: 0%;
+    height: 520px;
+  }
+  #service #second .card img {
+    width: 220px;
+    left: calc(50% - 110px);
+    margin-top: 20px;
   }
 }/*# sourceMappingURL=style.css.map */

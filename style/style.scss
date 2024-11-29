@@ -21,7 +21,7 @@ body{
     transition: 0.3s;
 
     &:hover{
-        background-color: rgb(34, 34, 255);
+        background-color: #2222ff;
         color: white;
     }
 }
@@ -176,6 +176,28 @@ img{
                 left: calc(50% - 50%);
               height: 550px;
               margin-bottom: 40px;
+
+              .col2{
+                img{
+                    width: 250px;
+                    left: calc(50% - 125px);
+
+                }
+              }
+            }
+        }
+
+        #second{
+            .card{
+                width: 100%;
+                left: calc(50% - 50%);
+                height: 520px;
+
+                img{
+                    width: 220px;
+                    left: calc(50% - 110px);
+                    margin-top: 20px;
+                }
             }
         }
     }
