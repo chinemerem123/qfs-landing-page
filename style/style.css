@@ -144,7 +144,22 @@ body {
   position: relative;
 }
 
+#footer .center {
+  position: relative;
+  left: 50%;
+}
+#footer a {
+  text-decoration: none;
+  color: rgb(49, 49, 49);
+}
+
 @media screen and (max-width: 800px) {
+  #footer {
+    margin-bottom: 50px;
+  }
+  #footer .center {
+    left: 0;
+  }
   #hero .h1 {
     font-size: 40px;
   }
